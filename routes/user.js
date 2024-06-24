@@ -58,7 +58,7 @@ try {
     const userId = newUser._id
     await Account.create({
        userId: userId,
-        balance: 1 + Math.random() * 1000
+        balance: parseInt(1 + Math.random() * 1000)
     
 })
 
